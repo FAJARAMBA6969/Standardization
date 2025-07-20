@@ -50,11 +50,23 @@ def tampil():
                 linear-gradient(to left, #00948a, #6884a1);
         color: #c8dee8;
         }}
+        @keyframes pulseGlow {{
+            0% {{
+                filter: drop-shadow(0 0 5px rgba(0, 200, 255, 0.4));
+            }}
+            50% {{
+                filter: drop-shadow(0 0 25px rgba(0, 200, 255, 0.9));
+            }}
+            100% {{
+                filter: drop-shadow(0 0 5px rgba(0, 200, 255, 0.4));
+            }}
+        }}
         .logo-wrapper img {{
             width: 275px;
             height: 275px;
             border-radius: 50%;
             object-fit: cover;
+            animation: pulseGlow 2s infinite ease-in-out;
         }}
         </style>
         """,
