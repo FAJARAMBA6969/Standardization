@@ -120,5 +120,9 @@ def tampil():
             dan kapan saja.mu.
         </div>
     """, unsafe_allow_html=True)
-    
-    st.write("silahkan pilih metode perhitungan yang sesuai, kemudian ikuti petunjuk yang ditampilkan dilayar!")
+
+    st.markdown("""
+        <div class="custom-paragraph">
+        silahkan pilih metode perhitungan yang sesuai, kemudian ikuti petunjuk yang ditampilkan dilayar!
+        </div>
+    """, unsafe_allow_html=True)
