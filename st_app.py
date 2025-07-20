@@ -10,6 +10,8 @@ st.markdown("""
     section[data-testid="stSidebar"] {
         background-color: rgba(0, 0, 0, 0.5);
         box-shadow: 0 0 20px rgba(0,0,0,0.3), 0 0 20px rgba(0,0,0,0.3);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
     }
 </style>
 """, unsafe_allow_html=True)
