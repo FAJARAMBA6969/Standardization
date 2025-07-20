@@ -40,6 +40,7 @@ def tampil():
         .logo-wrapper {{
             display: flex;
             justify-content: center;
+            margin: auto;
             align-items: center;
         }}
         [data-testid="stAppViewContainer"] {{
