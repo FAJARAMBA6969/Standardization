@@ -63,9 +63,9 @@ def tampil():
             }}
         }}
         .logo-wrapper img {{
-            width: 300px;
             animation: pulseGlow 2s infinite ease-in-out;
-            height: 300px;
+            width: 200px;
+            height: 200px;
             border-radius: 50%;
             object-fit: cover;
         }}
