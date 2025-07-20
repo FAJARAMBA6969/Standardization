@@ -53,19 +53,19 @@ def tampil():
         }}
         @keyframes pulseGlow {{
             0% {{
-                filter: drop-shadow(0 0 5px rgba(0, 200, 255, 0.4));
+                filter: drop-shadow(0 0 5px rgba(0, 200, 255, 0.1));
             }}
             50% {{
-                filter: drop-shadow(0 0 25px rgba(0, 200, 255, 0.9));
+                filter: drop-shadow(0 0 25px rgba(0, 200, 255, 0.6));
             }}
             100% {{
-                filter: drop-shadow(0 0 5px rgba(0, 200, 255, 0.4));
+                filter: drop-shadow(0 0 5px rgba(0, 200, 255, 0.1));
             }}
         }}
         .logo-wrapper img {{
             animation: pulseGlow 2s infinite ease-in-out;
-            width: 200px;
-            height: 200px;
+            width: 275px;
+            height: 275px;
             border-radius: 50%;
             object-fit: cover;
         }}
