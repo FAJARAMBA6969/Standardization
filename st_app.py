@@ -8,7 +8,7 @@ st.set_page_config(page_title="Calculator of Standardization", page_icon="🧪",
 st.markdown("""
 <style>
     section[data-testid="stSidebar"] {
-        background-color: rgba(0, 0, 0, 0.3);
+        background-color: rgba(0, 0, 0, 0.5);
         box-shadow: 0 0 20px rgba(0,0,0,0.3), 0 0 20px rgba(0,0,0,0.3);
     }
 </style>
