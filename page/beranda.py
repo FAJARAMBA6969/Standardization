@@ -69,6 +69,16 @@ def tampil():
             border-radius: 50%;
             object-fit: cover;
         }}
+        .custom-paragraph {{
+            font-size: 18px;
+            line-height: 1.8;
+            color: #c8dee8;
+            text-align: justify;
+            background-color: rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.05);
+        }}
         </style>
         """,
         unsafe_allow_html=True
@@ -88,5 +98,16 @@ def tampil():
     """, unsafe_allow_html=True)
     st.write(
         "Calculator of Standaritation adalah web online gratis yang dirancang untuk memudahkan pengguna dalam menghitung konsentrasi larutan standar titrimetri.")
-    st.markdown("---")
+    st.markdown("""
+            <div class="custom-paragraph">
+            Aplikasi dibuat dengan antarmuka yang sederhana  dan menarik secara 
+            visual, sehingga dapat diakses oleh siapa saja tanpa harus memiliki latar belakang 
+            teknis. Input pengguna dikemas dalam bentuk aplikasi interaktif yang mudah diisi. 
+            Output diberikan dalam bentuk visual (angka dan warna) yang menunjukkan status 
+            jawaban mengenai standarisasi yang telah dipilih dengan lengkap. Dengan desain 
+            responsif dan aksesibilitas tinggi (bisa dibuka dari HP, tablet, atau komputer), 
+            pengguna bisa menghitung kebutuhan standarisasi ketika dibutuhkan di mana saja 
+            dan kapan saja.mu.
+        </div>
+    """, unsafe_allow_html=True)
     st.write("silahkan pilih metode perhitungan yang sesuai, kemudian ikuti petunjuk yang ditampilkan dilayar!")
