@@ -7,7 +7,6 @@ st.set_page_config(page_title="Calculator of Standardization", page_icon="🧪",
 
 st.markdown("""
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
- @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap');
 <style>
     .material-icons {
         font-family: 'Material Icons';
@@ -25,6 +24,7 @@ st.markdown("""
     margin-top: 10px;
     margin-bottom: 0px; 
     }  
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap');
     html, body, [class*="css"] {
         font-family: 'Poppins', sans-serif;
     }           
