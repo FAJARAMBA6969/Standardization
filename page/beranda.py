@@ -6,7 +6,7 @@ def get_base64_image(image_path):
         encoded = base64.b64encode(img_file.read()).decode()
         return f"data:image/png;base64,{encoded}"
 def tampil():
-    img_data = get_base64_image("logo/logo_transparan.png")
+    img_data = get_base64_image("logo/logot.png")
 
     st.markdown(
         f"""
