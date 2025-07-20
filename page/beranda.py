@@ -44,7 +44,7 @@ def tampil():
                 radial-gradient(circle at top left, #182438 20%, transparent 80%),
                 radial-gradient(circle at bottom right, #182438 3%, transparent 90%),
                 radial-gradient(circle at top right, #00948a 10%, transparent 80%),
-                linear-gradient(to right, #6884a1, #00948a);
+                linear-gradient(to left, #6884a1, #00948a);
         color: #c8dee8;
         }}
         .logo-wrapper img {{
