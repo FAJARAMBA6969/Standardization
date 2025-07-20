@@ -48,8 +48,8 @@ def tampil():
         color: #c8dee8;
         }}
         .logo-wrapper img {{
-            width: 300px;
-            height: 300px;
+            width: 275px;
+            height: 275px;
             border-radius: 50%;
             object-fit: cover;
         }}
