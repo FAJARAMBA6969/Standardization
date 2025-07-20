@@ -14,6 +14,9 @@ def tampil():
         [data-testid="stHeader"] {{
             background-color: rgba(0, 0, 0, 0);    
         }}
+        [data-testid="stToolbar"] {{
+            right: 2rem;
+        }}
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap');
             
         html, body, [class*="css"] {{
