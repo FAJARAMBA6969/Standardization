@@ -243,7 +243,7 @@ def tampil():
                 <ol style="margin-top: 0; color: #c8dee8;">
                     <li>Pipet tepat {V1:.2f} mL larutan stok menggunakan pipet volumetrik</li>
                     <li>Pindahkan ke labu takar {V2} mL</li>
-                    <li>Tambahkan aquades hingga 2/3 volume, kocuk merata</li>
+                    <li>Tambahkan aquades hingga 2/3 volume, kocok merata</li>
                     <li>Encerkan sampai tanda batas</li>
                     <li>Homogenkan dengan membalik labu 7 kali</li>
                 </ol>
