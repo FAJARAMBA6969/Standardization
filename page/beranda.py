@@ -122,6 +122,10 @@ def tampil():
     """, unsafe_allow_html=True)
 
     st.markdown("""
+    <div style="height: 3px; background-color: rgba(255, 255, 255, 0.1); margin-top: 10px; margin-bottom: 20px;"></div>
+    """, unsafe_allow_html=True)
+
+    st.markdown("""
         <div class="custom-paragraph">
         silahkan pilih metode perhitungan yang sesuai, kemudian ikuti petunjuk yang ditampilkan dilayar!
         </div>
