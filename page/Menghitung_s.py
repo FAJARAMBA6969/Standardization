@@ -11,7 +11,7 @@ def tampil():
             [data-testid="stAppViewContainer"] {
                 background:
                     radial-gradient(circle at top left, #182438 20%, transparent 80%),
-                    radial-gradient(circle at bottom right, #182438 5%, transparent 80%),
+                    radial-gradient(circle at bottom right, #182438 5%, transparent 50%),
                     radial-gradient(circle at top right, #00948a 10%, transparent 70%),
                     linear-gradient(180deg, #6884a1, #bde3ff);
             color: #c8dee8;
